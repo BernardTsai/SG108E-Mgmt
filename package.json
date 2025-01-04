@@ -1,0 +1,22 @@
+{
+  "name": "sg108e-mgmt",
+  "version": "0.1.0",
+  "description": "TL-SG108E Management via Node",
+  "main": "status.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TP-Link",
+    "GS108E",
+    "Switch",
+    "API"
+  ],
+  "type": "module",
+  "author": "bernard@tsai.eu",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^3.3.2",
+  }
+}
